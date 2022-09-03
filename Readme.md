@@ -1,6 +1,6 @@
 # DeepC2: AI-Powered Covert Command and Control on OSNs
 
-This is the artifact of the [DeepC2](https://doi.org/0.1007/978-3-031-15777-6_22) 
+This is the implementation of the [DeepC2](https://doi.org/0.1007/978-3-031-15777-6_22) 
 paper at ICICS 2022.
 
 
