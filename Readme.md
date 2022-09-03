@@ -225,7 +225,7 @@ AlexanderKing4L bayour20 Officiating today was shambolic, that Foden blown wasnâ
 
 The botmaster should select a sentence from each chunk and post them on Twitter.
 
-![Post on Twitter](.image/post_twitter.png)
+![Post on Twitter](post_twitter.png)
 
 
 ## Code analysis
