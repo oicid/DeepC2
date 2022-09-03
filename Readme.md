@@ -41,10 +41,10 @@ tweets, they need to calculate the hashes to get the commands.
 It is worth noting that we do not aim to inspire malware authors to write 
 more efficient malware but to demonstrate an upward threat. Therefore, we will 
 share the method and code but choose the semi-open source for only security 
-researchers and vendors. Below are the instructions for the artifact.
+researchers and vendors. Below are the instructions for the code.
 
 
-## Structure of the artifact
+## Structure
 
 ```
 |
