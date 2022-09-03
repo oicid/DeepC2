@@ -1,0 +1,6 @@
+Pillow
+requests
+torch
+torchvision
+tqdm
+nltk
