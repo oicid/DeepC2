@@ -121,6 +121,9 @@ with 1 GB ROM and 1 vCPU. The suppliers are [Digital Ocean](https://digitalocean
 and [Alibaba Cloud](https://www.aliyun.com/). The latest test shows that the 
 code is compatible with `Python 3.10.4` and `PyTorch 1.12.1` on `Ubuntu 22.04 x64`.
 
+There are also some tutorial videos for running the code at 
+[Google Drive](https://drive.google.com/drive/folders/15fOPyGoWXB8CfBNoLf9IXyRbtX0Bo3wn).
+
 ### Get a token
 
 We use [Twitter API](https://developer.twitter.com/) in the code. Please 
@@ -299,7 +302,7 @@ their data as these files.
 3) Post tweets. After choosing a trending topic, data augmentation and hash 
    collision will be performed in `botmaster/botmaster.py`, and suitable 
    tweets will be selected soon. Please do not change the selected tweets and 
-   post them on Twitter assp.
+   post them on Twitter asap.
 3) Change avatar. Don't forget to change the avatar on Twitter before the bots 
    starting crawling the tweets.
 4) Wait for the bots to find the botmaster and parse the commands.
@@ -315,6 +318,16 @@ with 1 GB ROM and 1 vCPU.
 
 Codes for evaluating tweets generation and hash collision are in dir 
 `exp_5-1_5-2`.
+
+Before running the code, please create some directories that are needed in the 
+code:
+
+```
+new
+long
+new_cleaned
+new_augmented
+```
 
 We run `twitter_trends.py` first to get some trending topics and tweets for 
 the evaluation, which corresponds to Sec. 5.1. Then we run `tweets_hash.py` to 
